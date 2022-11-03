@@ -55,7 +55,7 @@ D7 = X Y Z
 ## Figure -04 8 to 3 Decoder implementation 
 
 ### Procedure
-/* write all the steps invloved */
+
 Step1:- Open the quartus II software.
 
 Step2:- Create a new project.
