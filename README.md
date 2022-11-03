@@ -120,11 +120,13 @@ endmodule
 
 ### TIMING DIGRAMS:
 ### Encoder:
-![github.logo](enctd.png)
+![enctd](https://user-images.githubusercontent.com/94154780/199722107-709df604-dfae-4efb-af8b-9571c3d8fc23.png)
 
-![github.logo](enctd1.png)
+![enctd1](https://user-images.githubusercontent.com/94154780/199722185-1bf463b5-8434-46fc-ae16-232db5e63903.png)
 
-![github.logo](enctd2.png)
+![encd2](https://user-images.githubusercontent.com/94154780/199722239-885a42f9-5101-4f79-9f1a-215efd591268.png)
+
+
 
 ### Decoder:
 ![github.logo](detim.png)
