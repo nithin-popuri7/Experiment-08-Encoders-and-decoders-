@@ -108,8 +108,15 @@ endmodule
 ### TIMING DIGRAMS:
 ### Encoder:
 ![github.logo](enctd.png)
+
 ![github.logo](enctd1.png)
+
 ![github.logo](enctd2.png)
+
+### Decoder:
+![github.logo](detim.png)
+
+
 
 
 ### TRUTH TABLE:
