@@ -60,37 +60,73 @@ D7 = X Y Z
 
 
 ### PROGRAM 
-/*
+```
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:P.Siva Naga Nithin.
+RegisterNumber:212221240037.
+```
+### Encoder:
+```
+module exp8(a,b,c,d0,d1,d2,d3,d4,d5,d6,d7);
+output a,b,c;
+input d0,d1,d2,d3,d4,d5,d6,d7;
+or(a,d4,d5,d6,d7);
+or(b,d2,d3,d6,d7);
+or(c,d1,d3,d5,d7);
+endmodule
+```
+
+### Decoder:
+```
+module dec(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
+output d0,d1,d2,d3,d4,d5,d6,d7;
+input a,b,c;
+assign d0=(~a & ~b & ~c) ;
+assign d1=(~a & ~b &c);
+assign d2=(~a & b &~c);
+assign d3=(~a & b &c);
+assign d4=(a &~b&~c);
+assign d5=(a &~b&c);
+assign d6=(a&b&~c);
+assign d7=(a&b&c);
+endmodule
+```
+
+
+
+### RTL LOGIC:
+### Encoder:
+![github.logo](enc.png)
+
+
+### Decoder:
+![github.logo](dec.png)
+
+
+
+
+### TIMING DIGRAMS:
+### Encoder:
+![github.logo](enctd.png)
+![github.logo](enctd1.png)
+![github.logo](enctd2.png)
+
+
+### TRUTH TABLE:
+### Encoder:
+![github.logo](tt.png)
+
+### Decoder:
+![github.logo](tt1.png)
 
 
 
 
 
 
-### RTL LOGIC  
 
 
+### RESULTS:
+Thus 8 to 3 Encoder and 3to8 Decoder are implemented successfully using verilog and validate its outputs
 
 
-
-
-
-
-### TIMING DIGRAMS  
-
-
-
-
-
-### TRUTH TABLE 
-
-
-
-
-
-
-### RESULTS 
